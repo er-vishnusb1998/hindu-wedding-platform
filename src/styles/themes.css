@@ -1,0 +1,103 @@
+/* Theme System - Dynamic CSS Variables */
+
+[data-theme="royal-maroon"] {
+  --primary: #4A0E17;
+  --secondary: #800020;
+  --background: #FDFBF7;
+  --surface: #FFFFFF;
+  --text: #2C1810;
+  --muted: #6E5D57;
+  --accent: #D4AF37;
+  --border: #E8D5B5;
+  --gold-gradient: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --font-heading: 'Cormorant Garamond', 'Cinzel', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}
+
+[data-theme="kerala-traditional"] {
+  --primary: #1E3A2B;
+  --secondary: #8B0000;
+  --background: #FFFDF5;
+  --surface: #FFFFFF;
+  --text: #1A241F;
+  --muted: #5C6B62;
+  --accent: #E6C200;
+  --border: #E6D7A8;
+  --gold-gradient: linear-gradient(135deg, #E6C200 0%, #FFF3A8 40%, #D4AF37 70%, #997F00 100%);
+  --card-bg: rgba(255, 255, 255, 0.96);
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}
+
+[data-theme="ivory-gold"] {
+  --primary: #2B1E16;
+  --secondary: #8C5E3B;
+  --background: #FAF6F0;
+  --surface: #FFFFFF;
+  --text: #261C14;
+  --muted: #7A6B5D;
+  --accent: #C5A059;
+  --border: #E3D7C5;
+  --gold-gradient: linear-gradient(135deg, #C5A059 0%, #F3E7D3 35%, #B38F46 70%, #94712D 100%);
+  --card-bg: rgba(255, 255, 255, 0.94);
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}
+
+[data-theme="temple-elegance"] {
+  --primary: #8C2D19;
+  --secondary: #A84024;
+  --background: #FAF4EE;
+  --surface: #FFFFFF;
+  --text: #2B1B17;
+  --muted: #6B544D;
+  --accent: #CBA135;
+  --border: #E6C6B8;
+  --gold-gradient: linear-gradient(135deg, #D4AF37 0%, #FFF2B2 30%, #B8860B 70%, #7A5904 100%);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}
+
+[data-theme="minimal-luxury"] {
+  --primary: #121212;
+  --secondary: #222222;
+  --background: #0F0F10;
+  --surface: #1C1C1E;
+  --text: #F2F2F7;
+  --muted: #98989D;
+  --accent: #E5C158;
+  --border: #2C2C2E;
+  --gold-gradient: linear-gradient(135deg, #E5C158 0%, #FFF4CB 40%, #B5932D 80%);
+  --card-bg: rgba(28, 28, 30, 0.92);
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}
+
+[data-theme="floral-romance"] {
+  --primary: #2D4A3E;
+  --secondary: #C08573;
+  --background: #F8F6F0;
+  --surface: #FFFFFF;
+  --text: #1E2C25;
+  --muted: #63736A;
+  --accent: #D4A373;
+  --border: #E0D6C8;
+  --gold-gradient: linear-gradient(135deg, #D4A373 0%, #F5E5D3 40%, #A87647 80%);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}

@@ -1,0 +1,91 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './themes.css';
+@import './animations.css';
+
+:root {
+  --primary: #4A0E17;
+  --secondary: #800020;
+  --background: #FDFBF7;
+  --surface: #FFFFFF;
+  --text: #2C1810;
+  --muted: #6E5D57;
+  --accent: #D4AF37;
+  --border: #E8D5B5;
+  --gold-gradient: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --font-heading: 'Cormorant Garamond', 'Cinzel', serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-malayalam: 'Noto Serif Malayalam', serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom Typography Helpers */
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: 0.02em;
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+.font-malayalam {
+  font-family: var(--font-malayalam);
+}
+
+/* Gold Gradient Text */
+.gold-text-gradient {
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Gold Accent Lines & Borders */
+.gold-border {
+  border: 1px solid var(--accent);
+}
+
+.gold-border-double {
+  border: 3px double var(--accent);
+}
+
+.gold-divider {
+  height: 2px;
+  background: var(--gold-gradient);
+  border: none;
+  margin: 1.5rem auto;
+  width: 120px;
+  border-radius: 2px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}

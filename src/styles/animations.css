@@ -1,0 +1,74 @@
+/* Custom Animations for Hindu Wedding Invitation */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+}
+
+@keyframes rotateMandala {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulseGold {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.7);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes openEnvelopeFlap {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: rotateMandala 60s linear infinite;
+}
+
+.pulse-gold {
+  animation: pulseGold 3s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
