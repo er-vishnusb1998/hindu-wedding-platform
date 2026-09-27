@@ -2,6 +2,8 @@
 
 A production-ready, mobile-first **Hindu Wedding Invitation Platform** built with **React, Vite, TypeScript, React Router, Bootstrap 5, custom luxury CSS, and Supabase**.
 
+*Version 1.1.0 — Production Ready & Admin Password Manager Enabled*
+
 Designed for creating royal Indian digital wedding invitations customized via an Admin Dashboard and shared with guests using **loginless public links (`/w/:slug`)**.
 
 ---
